@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>CFAC19 Classifier</title>
+  </head>
+  <body>
+	
+	<!-- Nav Bar -->
+	<div class="container-fluid mx-auto bg-dark text-white">
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between">
+		  <a class="navbar-brand text-center flex-fill"  href="/" >CFAC19</a>
+		</nav>
+	</div>
+	<!-- Nav Bar end -->
+	
+	
+	<!-- Result body-->
+	<div class="container-fluid mx-auto mt-5 bg-secondary text-white rounded-lg result" style="width:550px">
+		<div class="card border-dark mx-n3">
+			 <div class="card-header bg-dark border-dark text-center mb-n3 style="height:20px">
+				<a style="font-size:20px">RESULT</a>
+			 </div>
+			 <div class="card-header bg-danger border-dark text-center">
+					Warning: This result is not a medical diagnosis. You should consult a doctor if symptoms are present.
+			 </div>
+			 <div class="card-body bg-info border-secondary text-center" style="font-size:40px">
+				The symptoms you have indicates that you have
+				<b><a style="font-size:45px">{{result}}</a></b>
+			 </div>
+		</div>
+		
+	</div>	
+	<!-- Result body ends-->
+	
+	<!-- Nav Bar -->
+	<div class="container-fluid mx-auto bg-dark text-white">
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between fixed-bottom">
+		  <a class="navbar-brand text-center flex-fill" style="font-size:10px" href="#" >By: Von Jason Q. Lagare and Noli Camaya Jr.</a>
+		</nav>
+	</div>
+	<!-- Nav Bar end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  <footer>
+  <!-- Script for forms -->
+  	<script>
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(function() {
+		  'use strict';
+		  window.addEventListener('load', function() {
+			// Fetch all the forms we want to apply custom Bootstrap validation styles to
+			var forms = document.getElementsByClassName('needs-validation');
+			// Loop over them and prevent submission
+			var validation = Array.prototype.filter.call(forms, function(form) {
+			  form.addEventListener('submit', function(event) {
+				if (form.checkValidity() === false) {
+				  event.preventDefault();
+				  event.stopPropagation();
+				}
+				form.classList.add('was-validated');
+			  }, false);
+			});
+		  }, false);
+		})();
+		</script>
+	
+  </footer>
+</html>
