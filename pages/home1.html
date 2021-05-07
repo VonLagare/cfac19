@@ -36,28 +36,29 @@
 			</div>
 			<!-- Nav Bar end -->
 		
-		  <!-- Instruction Card -->
+		<!-- Instruction Card -->
 			<div class="container-fluid mx-auto mt-3 bg-dark text-white rounded-lg" style="width:550px">
-				<div class="card border-dark mx-n3"  style="font-size:20px">
-				  <div class="card-header bg-dark border-dark text-center"><b>Cold - Flu - Allergy - Covid-19 <br>
-						Based on the symptoms you can identify your Illness. </b>
+				<div class="card border-dark mx-n3">
+				  <div class="card-header bg-dark border-dark text-center">Cold - Flu - Allergy - Covid-19 <br>
+						Based on the symptoms you can identify your Illness.
 				  </div>
-				  <div class="card-body bg-secondary border-dark"  align="justify"><b>Instruction: </b><br>
-						There are 20 symptoms given. Choose <b>YES</b> if you are experiencing that symptom and <b>NO</b> if not.
+				  <div class="card-body bg-secondary border-dark">Instruction: <br>
+						There are 20 symptoms given. Choose Yes if you are experiencing that symptom and No if not.
 				  </div>
 				</div>
 			</div>	
 		<!-- Instruction Card end -->
 			
+			
 		<!-- Form Container -->
-		<div class="container-fluid mx-auto mt-1 bg-secondary border-dark text-white rounded-lg" style="width:550px; font-size:15px">
+		<div class="container-fluid mx-auto mt-1 bg-secondary border-dark text-white rounded-lg" style="width:550px">
 		
 			<!-- Input form -->
 			<form action="{{ url_for('main') }}" method="POST" 
 					class="needs-validation" novalidate>
 		
 				<!-- First input line -->
-				<b>
+				
 				<div class="form-row">
 					<div class="col-md-4 mb-3">
 					  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Cough</label>
@@ -288,10 +289,11 @@
 				  <div class="form-group pb-2">
 				  <button class="btn btn-dark" type="submit">Submit form</button>
 				  </div>
-				  </b>
 				</form>
-				
 			<!-- End form -->
+
+		</div>
+		<!-- End Container -->
 		
 		<!-- Nav Bar -->
 		<div class="container-fluid mx-auto bg-dark text-white">
