@@ -61,5 +61,22 @@ def main():
         
         return flask.render_template('result.html', result=str(pred))
     
+@app.route('/model', methods=['GET'])
+def model():
+    if flask.request.method == 'GET':
+        return flask.render_template('model.html')
+    
+@app.route('/source', methods=['GET'])
+def source():
+    if flask.request.method == 'GET':
+        return flask.render_template('source.html')
+
+    
+@app.route('/about', methods=['GET'])
+def about():
+    if flask.request.method == 'GET':
+        return flask.render_template('about.html')
+
+
 if __name__ == '__main__':
     app.run()

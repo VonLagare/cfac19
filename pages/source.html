@@ -36,31 +36,19 @@
 	</div>
 	<!-- Nav Bar end -->
 	
+	
 	<!-- Result body-->
-	<div class="container-fluid mx-auto mt-5 bg-secondary text-white rounded-lg result" style="width:550px">
-		<div class="card border-dark mx-n3">
-			 <div class="card-header bg-dark border-dark text-center mb-n3 style="height:20px">
-				<a style="font-size:20px">RESULT</a>
-			 </div>
-			 <div class="card-header bg-danger border-dark text-center">
-					Warning: This result is not a medical diagnosis. You should consult a doctor if symptoms are present.
-			 </div>
-			 <div class="card-body bg-info border-secondary text-center" style="font-size:40px">
-				The symptoms you have indicates that you have
-				<b><a style="font-size:45px">{{result}}</a></b>
-			 </div>
-		</div>
-		
+	<div class="container-fluid mx-auto mt-5 bg-secondary text-white rounded-lg result" style="width:850px">
+	Server
+		<script src="http://gist-it.appspot.com/https://github.com/VonLagare/cfac19/blob/main/server.py"></script>
+	</div>	
+	<div class="container-fluid mx-auto mt-5 bg-secondary text-white rounded-lg result" style="width:850px">
+	Home Page
+		<script src="http://gist-it.appspot.com/https://github.com/VonLagare/cfac19/blob/main/pages/home.html"></script>
 	</div>	
 	<!-- Result body ends-->
 	
-	<!-- Nav Bar -->
-	<div class="container-fluid mx-auto bg-dark text-white">
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between fixed-bottom">
-		  <a class="navbar-brand text-center flex-fill" style="font-size:10px" href="#" >By: Von Jason Q. Lagare and Noli Camaya Jr.</a>
-		</nav>
-	</div>
-	<!-- Nav Bar end -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -69,27 +57,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
   <footer>
-  <!-- Script for forms -->
-  	<script>
-		// Example starter JavaScript for disabling form submissions if there are invalid fields
-		(function() {
-		  'use strict';
-		  window.addEventListener('load', function() {
-			// Fetch all the forms we want to apply custom Bootstrap validation styles to
-			var forms = document.getElementsByClassName('needs-validation');
-			// Loop over them and prevent submission
-			var validation = Array.prototype.filter.call(forms, function(form) {
-			  form.addEventListener('submit', function(event) {
-				if (form.checkValidity() === false) {
-				  event.preventDefault();
-				  event.stopPropagation();
-				}
-				form.classList.add('was-validated');
-			  }, false);
-			});
-		  }, false);
-		})();
-		</script>
-	
+  	<!-- Nav Bar -->
+	<div class="container-fluid mx-auto bg-dark text-white">
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark d-flex justify-content-between">
+		  <a class="navbar-brand text-center flex-fill" style="font-size:10px" href="#" >By: Von Jason Q. Lagare and Noli Camaya Jr.</a>
+		</nav>
+	</div>
+	<!-- Nav Bar end -->
   </footer>
 </html>
