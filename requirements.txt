@@ -1,5 +1,9 @@
+appdirs==1.4.4
+certifi==2020.12.5
 click==7.1.2
 cycler==0.10.0
+distlib==0.3.1
+filelock==3.0.12
 Flask==1.1.2
 gunicorn==20.1.0
 itsdangerous==1.1.0
@@ -11,6 +15,7 @@ matplotlib==3.4.1
 numpy==1.20.2
 pandas==1.2.4
 Pillow==8.2.0
+pipenv==2020.11.15
 pygad==2.13.0
 pyparsing==2.4.7
 python-dateutil==2.8.1
@@ -20,4 +25,6 @@ scipy==1.6.3
 six==1.16.0
 sklearn==0.0
 threadpoolctl==2.1.0
+virtualenv==20.4.6
+virtualenv-clone==0.5.4
 Werkzeug==1.0.1
