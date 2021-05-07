@@ -11,78 +11,83 @@
     <title>CFAC19 Classifier</title>
   </head>
   <body>
-	
-	<!-- Nav Bar -->
-	<div class="container-fluid mx-auto bg-dark text-white">
-		<nav class="navbar navbar-expand bg-dark navbar-dark d-flex justify-content-start">
-		<!-- Nav Buttons -->
-		  <div class="p-2">
-			<a class="navbar-brand text-center flex-fill"  href="/" >CFAC19</a>
-		  </div>
-		  <div class="p-2">
-			<a class="navbar-brand text-center flex-fill"  href="/" >Home</a>
-		  </div>
-		  <div class="p-2">
-			<a class="navbar-brand text-center flex-fill"  href="/model" >Model</a>
-		  </div>
-		  <div class="p-2">
-			<a class="navbar-brand text-center flex-fill"  href="/source" >Source</a>
-		  </div>
-		  <div class="p-2">
-			<a class="navbar-brand text-center flex-fill"  href="/about" >About</a>
-		  </div>
-		 <!-- Nav Buttons end-->
-		</nav>
-	</div>
-	<!-- Nav Bar end -->
-	
-	<!-- Grid Start -->
-	<div class="container">
-	  <div class="row">
-		<div class="col-sm">
-		  	<div class="container-fluid mx-auto mt-5 bg-light text-black rounded-lg result" style="width:400px">
-				<div class="text-center"><br>
-					<img src="{{url_for('static', filename='von.jpg')}}" align="middle" 
-					class="img-fluid img-thumbnail" alt="von" style="width:150px;height:150px;"/> 
-				</div><br><br>
-				<div>
-					Name: Von Jason Q. Lagare<br><br>
-					Description: Currently studying at Technological Institute of the Philppines. Third
-					year college pursuing Computer Engineering course.<br><br>
-					Social Links:<br>
-					<a href="https://github.com/VonLagare">https://github.com/VonLagare</a>
-				</div>
-			</div>	
+	<div style="font-family:arial;">
+		<!-- Nav Bar -->
+		<div class="container-fluid mx-auto bg-dark text-white">
+			<nav class="navbar navbar-expand bg-dark navbar-dark d-flex justify-content-start">
+			<!-- Nav Buttons -->
+			  <div class="p-2">
+				<a class="navbar-brand text-center flex-fill"  href="/" >CFAC19</a>
+			  </div>
+			  <div class="p-2">
+				<a class="navbar-brand text-center flex-fill"  href="/" >Home</a>
+			  </div>
+			  <div class="p-2">
+				<a class="navbar-brand text-center flex-fill"  href="/model" >Model</a>
+			  </div>
+			  <div class="p-2">
+				<a class="navbar-brand text-center flex-fill"  href="/source" >Source</a>
+			  </div>
+			  <div class="p-2">
+				<a class="navbar-brand text-center flex-fill"  href="/about" >About</a>
+			  </div>
+			 <!-- Nav Buttons end-->
+			</nav>
 		</div>
-		<div class="col-sm">
-		  	<div class="container-fluid mx-auto mt-5 bg-light text-black rounded-lg result" style="width:400px">
-				<div class="text-center"><br>
-					<img src="{{url_for('static', filename='jong.jpg')}}" align="middle" 
-					class="img-fluid img-thumbnail" alt="jong" style="width:150px;height:150px;"/> 
-				</div><br><br>
-				<div>
-					Name: Noli Camaya Jr.<br><br>
-					Description: Currently studying at Technological Institute of the Philppines. Third
-					year college pursuing Computer Engineering course.<br><br>
-					Social Links:<br>
-					<a href="https://github.com/VonLagare">https://github.com/VonLagare</a>
-				</div>
-			</div>	
+		<!-- Nav Bar end -->
 		
+		<!-- Grid Start -->
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm">
+				<div class="container-fluid mx-auto mt-5 bg-light text-black rounded-lg result" style="width:400px">
+					<div class="text-center"><br>
+						<img src="{{url_for('static', filename='von.jpg')}}" align="middle" 
+						class="img-fluid img-thumbnail" alt="von" style="width:150px;height:150px;"/> 
+					</div><br><br>
+					<div>
+						<b>Name:</b> Von Jason Q. Lagare<br><br>
+						<b>Email:</b> vonlagareofficial@gamail.com<br><br>
+						<b>Description:</b>Description: Currently studying at Technological Institute of the Philppines. Third
+										year college pursuing Computer Engineering course. My goal is to have an impact on lives of 
+										people around teh world.<br><br>
+						<b>Social Links:</b><br>
+						<a href="https://github.com/VonLagare">https://github.com/VonLagare</a>
+					</div>
+				</div>	
+			</div>
+			<div class="col-sm">
+				<div class="container-fluid mx-auto mt-5 bg-light text-black rounded-lg result" style="width:400px">
+					<div class="text-center"><br>
+						<img src="{{url_for('static', filename='jong.jpg')}}" align="middle" 
+						class="img-fluid img-thumbnail" alt="jong" style="width:150px;height:150px;"/> 
+					</div><br><br>
+					<div>
+						<b>Name:</b> Noli Camaya Jr.<br><br>
+						<b>Email:</b> jongcamaya@gamail.com<br><br>
+						<b>Description:</b>Description: Currently studying at Technological Institute of the Philppines. 
+						I want to become a professional computer engineer someday.
+						My goal is to use my skill in order to help the world.<br><br>
+						<b>Social Links:</b><br>
+						<a href="https://github.com/VonLagare">https://github.com/VonLagare</a>
+					</div>
+				</div>	
+			
+			</div>
+		  </div>
 		</div>
-	  </div>
+		<!-- Grid end -->
+		
+
+
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</div>
-	<!-- Grid end -->
-	
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+ </body>
   <footer>
   	<!-- Nav Bar -->
 	<div class="container-fluid mx-auto bg-dark text-white">
