@@ -14,6 +14,7 @@ MarkupSafe==1.1.1
 matplotlib==3.4.1
 numpy==1.20.2
 pandas==1.2.4
+pickle-mixin==1.0.2
 Pillow==8.2.0
 pipenv==2020.11.15
 pygad==2.13.0
